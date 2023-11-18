@@ -1,0 +1,25 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<Destination Port &le; 446.0<br/>entropy = 0.1<br/>Amostras = 10166<br/>Valor = [210, 15897]<br/>Classe = DrDoS_UDP>, fillcolor="#3c9ee5"] ;
+1 [label=<Destination Port &le; 405.0<br/>entropy = 0.687<br/>Amostras = 134<br/>Valor = [187, 42]<br/>Classe = BENIGN>, fillcolor="#eb9d65"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<Fwd IAT Mean &le; 35.9<br/>entropy = 0.804<br/>Amostras = 98<br/>Valor = [129, 42]<br/>Classe = BENIGN>, fillcolor="#edaa79"] ;
+1 -> 2 ;
+3 [label=<entropy = 0.644<br/>Amostras = 80<br/>Valor = [117, 23]<br/>Classe = BENIGN>, fillcolor="#ea9a60"] ;
+2 -> 3 ;
+4 [label=<entropy = 0.963<br/>Amostras = 18<br/>Valor = [12, 19]<br/>Classe = DrDoS_UDP>, fillcolor="#b6dbf5"] ;
+2 -> 4 ;
+5 [label=<entropy = 0.0<br/>Amostras = 36<br/>Valor = [58, 0]<br/>Classe = BENIGN>, fillcolor="#e58139"] ;
+1 -> 5 ;
+6 [label=<Fwd Packet Length Std &le; 149.032<br/>entropy = 0.016<br/>Amostras = 10032<br/>Valor = [23, 15855]<br/>Classe = DrDoS_UDP>, fillcolor="#399de5"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+7 [label=<Destination Port &le; 59659.5<br/>entropy = 0.014<br/>Amostras = 10029<br/>Valor = [20, 15855]<br/>Classe = DrDoS_UDP>, fillcolor="#399de5"] ;
+6 -> 7 ;
+8 [label=<entropy = 0.0<br/>Amostras = 9073<br/>Valor = [0, 14361]<br/>Classe = DrDoS_UDP>, fillcolor="#399de5"] ;
+7 -> 8 ;
+9 [label=<entropy = 0.101<br/>Amostras = 956<br/>Valor = [20, 1494]<br/>Classe = DrDoS_UDP>, fillcolor="#3c9ee5"] ;
+7 -> 9 ;
+10 [label=<entropy = 0.0<br/>Amostras = 3<br/>Valor = [3, 0]<br/>Classe = BENIGN>, fillcolor="#e58139"] ;
+6 -> 10 ;
+}
