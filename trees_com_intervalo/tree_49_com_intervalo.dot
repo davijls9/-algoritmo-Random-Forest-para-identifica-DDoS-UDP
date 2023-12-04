@@ -1,0 +1,37 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<Fwd IAT Mean &le; 784125.562<br/>Índice Gini = 0.022<br/>Amostras = 10208<br/>Valor = [181, 15926]<br/>Classe = DrDoS_UDP>, fillcolor="#3b9ee5"] ;
+1 [label=<Fwd Packet Length Mean &le; 210.083<br/>Índice Gini = 0.02<br/>Amostras = 10194<br/>Valor = [162, 15924]<br/>Classe = DrDoS_UDP>, fillcolor="#3b9ee5"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<Destination Port &le; 37.5<br/>Índice Gini = 0.3<br/>Amostras = 124<br/>Valor = [151, 34]<br/>Classe = BENIGN>, fillcolor="#eb9d66"] ;
+1 -> 2 ;
+3 [label=<Índice Gini = 0.0<br/>Amostras = 3<br/>Valor = [0, 5]<br/>Classe = DrDoS_UDP>, fillcolor="#399de5"] ;
+2 -> 3 ;
+4 [label=<Fwd Packet Length Mean &le; 7.75<br/>Índice Gini = 0.27<br/>Amostras = 121<br/>Valor = [151, 29]<br/>Classe = BENIGN>, fillcolor="#ea995f"] ;
+2 -> 4 ;
+5 [label=<min_seg_size_forward &le; 26.0<br/>Índice Gini = 0.464<br/>Amostras = 36<br/>Valor = [33, 19]<br/>Classe = BENIGN>, fillcolor="#f4caab"] ;
+4 -> 5 ;
+6 [label=<Índice Gini = 0.08<br/>Amostras = 14<br/>Valor = [23, 1]<br/>Classe = BENIGN>, fillcolor="#e68642"] ;
+5 -> 6 ;
+7 [label=<Índice Gini = 0.459<br/>Amostras = 22<br/>Valor = [10, 18]<br/>Classe = DrDoS_UDP>, fillcolor="#a7d3f3"] ;
+5 -> 7 ;
+8 [label=<Fwd Packet Length Mean &le; 47.5<br/>Índice Gini = 0.144<br/>Amostras = 85<br/>Valor = [118, 10]<br/>Classe = BENIGN>, fillcolor="#e78c4a"] ;
+4 -> 8 ;
+9 [label=<Índice Gini = 0.0<br/>Amostras = 60<br/>Valor = [90, 0]<br/>Classe = BENIGN>, fillcolor="#e58139"] ;
+8 -> 9 ;
+10 [label=<Índice Gini = 0.388<br/>Amostras = 25<br/>Valor = [28, 10]<br/>Classe = BENIGN>, fillcolor="#eeae80"] ;
+8 -> 10 ;
+11 [label=<Protocol &le; 11.5<br/>Índice Gini = 0.001<br/>Amostras = 10070<br/>Valor = [11, 15890]<br/>Classe = DrDoS_UDP>, fillcolor="#399de5"] ;
+1 -> 11 ;
+12 [label=<Índice Gini = 0.0<br/>Amostras = 7<br/>Valor = [11, 0]<br/>Classe = BENIGN>, fillcolor="#e58139"] ;
+11 -> 12 ;
+13 [label=<Índice Gini = 0.0<br/>Amostras = 10063<br/>Valor = [0, 15890]<br/>Classe = DrDoS_UDP>, fillcolor="#399de5"] ;
+11 -> 13 ;
+14 [label=<min_seg_size_forward &le; 30.0<br/>Índice Gini = 0.172<br/>Amostras = 14<br/>Valor = [19, 2]<br/>Classe = BENIGN>, fillcolor="#e88e4e"] ;
+0 -> 14 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+15 [label=<Índice Gini = 0.0<br/>Amostras = 13<br/>Valor = [19, 0]<br/>Classe = BENIGN>, fillcolor="#e58139"] ;
+14 -> 15 ;
+16 [label=<Índice Gini = 0.0<br/>Amostras = 1<br/>Valor = [0, 2]<br/>Classe = DrDoS_UDP>, fillcolor="#399de5"] ;
+14 -> 16 ;
+}
