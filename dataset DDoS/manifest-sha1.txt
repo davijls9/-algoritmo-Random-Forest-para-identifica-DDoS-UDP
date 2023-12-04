@@ -1,0 +1,2 @@
+80ff7fd07e2bc31164197f07fe9d9606ee565f9a data/NF-CSE-CIC-IDS2018-v2.csv
+6cf84d2d76c29321175d9429996d7cda2f3b15d6 data/NetFlow_v2_Features.csv
