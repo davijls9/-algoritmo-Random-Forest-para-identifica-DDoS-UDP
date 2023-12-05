@@ -6,6 +6,25 @@ Este repositório contém um conjunto de dados para avaliação de ataques de ne
 
 O conjunto de dados disponibilizado aqui contém informações sobre ataques DDoS e é utilizado para avaliar o desempenho de diferentes algoritmos de classificação.
 
+## Informações da Base de Dados
+
+Este conjunto de dados, CICDDoS2019, é referenciado no artigo "Developing Realistic Distributed Denial of Service (DDoS) Attack Dataset and Taxonomy" disponível [aqui](https://www.unb.ca/cic/datasets/ddos-2019.html).
+
+### Resumo do Artigo
+
+O artigo descreve a ameaça dos ataques de negação de serviço distribuídos (DDoS) à segurança de redes, enfatizando a busca por detectores em tempo real com baixo custo computacional. Destaca-se a importância de conjuntos de dados bem projetados para avaliar novos algoritmos e técnicas de detecção.
+
+### Contribuição do Artigo
+
+1. Revisão abrangente de conjuntos de dados existentes e proposta de uma nova taxonomia para ataques DDoS.
+2. Geração do conjunto de dados CICDDoS2019, corrigindo lacunas presentes em conjuntos de dados anteriores.
+3. Proposta de um novo método de detecção e classificação de famílias de ataques baseado em características de fluxo de rede.
+4. Identificação dos conjuntos de características mais importantes para detectar diferentes tipos de ataques DDoS, com seus respectivos pesos.
+
+### Nome do Artigo
+
+"Developing Realistic Distributed Denial of Service (DDoS) Attack Dataset and Taxonomy.pdf"
+
 ## Pré-requisitos
 
 Antes de usar este conjunto de dados e o código associado, certifique-se de ter instalado:
