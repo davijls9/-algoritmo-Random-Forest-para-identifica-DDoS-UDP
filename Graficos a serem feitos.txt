@@ -1,0 +1,15 @@
+Gráfico de linha
+Gráfico de dispersão
+Gráfico de barras
+Histograma
+Gráfico de pizza
+Gráfico de caixa (boxplot)
+Gráfico de violino
+Gráfico de área
+Gráfico de radar
+Mapa de calor (heatmap)
+Gráfico de contorno
+Gráfico 3D
+Gráfico polar
+Gráfico de bolhas
+Gráfico de densidade
