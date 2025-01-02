@@ -14,6 +14,7 @@ Este conjunto de dados, CICDDoS2019, é referenciado no artigo "Developing Reali
 
 O artigo descreve a ameaça dos ataques de negação de serviço distribuídos (DDoS) à segurança de redes, enfatizando a busca por detectores em tempo real com baixo custo computacional. Destaca-se a importância de conjuntos de dados bem projetados para avaliar novos algoritmos e técnicas de detecção.
 
+
 ### Contribuição do Artigo
 
 1. Revisão abrangente de conjuntos de dados existentes e proposta de uma nova taxonomia para ataques DDoS.
@@ -24,6 +25,27 @@ O artigo descreve a ameaça dos ataques de negação de serviço distribuídos (
 ### Nome do Artigo
 
 "Developing Realistic Distributed Denial of Service (DDoS) Attack Dataset and Taxonomy.pdf"
+
+## Principais Arquivos
+
+Os seguintes arquivos na raiz do projeto são os principais documentos que contêm análises e apresentações de dados:
+
+1. **`resultado_algoritmo-Cortada.ipynb`**  
+   - *Tamanho*: 610 KB  
+   - Este notebook apresenta os resultados do algoritmo com um conjunto de dados reduzido com base na analise feita.
+
+2. **`resultado_algoritmo.ipynb`**  
+   - *Tamanho*: 326 KB  
+   - Notebook contendo os resultados completos do algoritmo com todas as etapas de processamento relacionado ao Random Forest.
+
+3. **`apresentacao_de_dados_oficial-Com corte.ipynb`**  
+   - *Tamanho*: 595 KB  
+   - Versão reduzida da apresentação oficial dos dados, contendo gráficos e insights otimizados com base na analise feita.
+
+4. **`apresentacao_de_dados_oficial.ipynb`**  
+   - *Tamanho*: 4.4 MB  
+   - Apresentação oficial dos dados em formato completo, com visualizações detalhadas e análise aprofundada.
+
 
 ## Pré-requisitos
 
