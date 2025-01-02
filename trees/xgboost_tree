@@ -1,0 +1,125 @@
+digraph {
+    graph [ rankdir=TB ]
+
+    0 [ label="Protocol<17" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="min_seg_size_forward<24" ]
+    1 -> 3 [label="yes" color="#FF0000"]
+    1 -> 4 [label="no, missing" color="#0000FF"]
+
+    3 [ label="Destination Port<1154" ]
+    3 -> 7 [label="yes" color="#FF0000"]
+    3 -> 8 [label="no, missing" color="#0000FF"]
+
+    7 [ label="min_seg_size_forward<4" ]
+    7 -> 13 [label="yes" color="#FF0000"]
+    7 -> 14 [label="no, missing" color="#0000FF"]
+
+    13 [ label="leaf=1.53630722" ]
+
+    14 [ label="leaf=2.36648417" ]
+
+    8 [ label="Fwd IAT Mean<2" ]
+    8 -> 15 [label="yes" color="#FF0000"]
+    8 -> 16 [label="no, missing" color="#0000FF"]
+
+    15 [ label="leaf=2.35707402" ]
+
+    16 [ label="Destination Port<51414" ]
+    16 -> 21 [label="yes" color="#FF0000"]
+    16 -> 22 [label="no, missing" color="#0000FF"]
+
+    21 [ label="leaf=-0.320020378" ]
+
+    22 [ label="Destination Port<59988" ]
+    22 -> 29 [label="yes" color="#FF0000"]
+    22 -> 30 [label="no, missing" color="#0000FF"]
+
+    29 [ label="leaf=1.36419344" ]
+
+    30 [ label="leaf=-0.262688726" ]
+
+    4 [ label="Fwd IAT Mean<1" ]
+    4 -> 9 [label="yes" color="#FF0000"]
+    4 -> 10 [label="no, missing" color="#0000FF"]
+
+    9 [ label="leaf=-0.32287994" ]
+
+    10 [ label="Fwd Packet Length Std<27.1917515" ]
+    10 -> 17 [label="yes" color="#FF0000"]
+    10 -> 18 [label="no, missing" color="#0000FF"]
+
+    17 [ label="min_seg_size_forward<40" ]
+    17 -> 23 [label="yes" color="#FF0000"]
+    17 -> 24 [label="no, missing" color="#0000FF"]
+
+    23 [ label="Fwd IAT Mean<49" ]
+    23 -> 31 [label="yes" color="#FF0000"]
+    23 -> 32 [label="no, missing" color="#0000FF"]
+
+    31 [ label="leaf=1.08234501" ]
+
+    32 [ label="leaf=0.404655695" ]
+
+    24 [ label="leaf=-0.252001941" ]
+
+    18 [ label="leaf=-0.305613726" ]
+
+    2 [ label="Destination Port<1154" ]
+    2 -> 5 [label="yes" color="#FF0000"]
+    2 -> 6 [label="no, missing" color="#0000FF"]
+
+    5 [ label="Fwd Packet Length Std<17.8978577" ]
+    5 -> 11 [label="yes" color="#FF0000"]
+    5 -> 12 [label="no, missing" color="#0000FF"]
+
+    11 [ label="Fwd IAT Mean<2" ]
+    11 -> 19 [label="yes" color="#FF0000"]
+    11 -> 20 [label="no, missing" color="#0000FF"]
+
+    19 [ label="min_seg_size_forward<20" ]
+    19 -> 25 [label="yes" color="#FF0000"]
+    19 -> 26 [label="no, missing" color="#0000FF"]
+
+    25 [ label="min_seg_size_forward<4" ]
+    25 -> 33 [label="yes" color="#FF0000"]
+    25 -> 34 [label="no, missing" color="#0000FF"]
+
+    33 [ label="leaf=-0.289268523" ]
+
+    34 [ label="leaf=-0.228002056" ]
+
+    26 [ label="min_seg_size_forward<32" ]
+    26 -> 35 [label="yes" color="#FF0000"]
+    26 -> 36 [label="no, missing" color="#0000FF"]
+
+    35 [ label="leaf=-0.135303542" ]
+
+    36 [ label="leaf=0.0190124195" ]
+
+    20 [ label="Fwd IAT Mean<21" ]
+    20 -> 27 [label="yes" color="#FF0000"]
+    20 -> 28 [label="no, missing" color="#0000FF"]
+
+    27 [ label="Fwd IAT Mean<3" ]
+    27 -> 37 [label="yes" color="#FF0000"]
+    27 -> 38 [label="no, missing" color="#0000FF"]
+
+    37 [ label="leaf=0.205584288" ]
+
+    38 [ label="leaf=0.791566432" ]
+
+    28 [ label="Fwd IAT Mean<39613" ]
+    28 -> 39 [label="yes" color="#FF0000"]
+    28 -> 40 [label="no, missing" color="#0000FF"]
+
+    39 [ label="leaf=-0.238814577" ]
+
+    40 [ label="leaf=0.473397791" ]
+
+    12 [ label="leaf=-0.339714408" ]
+
+    6 [ label="leaf=-0.340709299" ]
+}
